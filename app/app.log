@@ -1,0 +1,465 @@
+[2025-09-15 19:53:26] main: inicio
+[2025-09-15 19:53:26] main: Iniciando ESP32 Serial Monitor...
+[2025-09-15 19:53:26] main: Directorio de datos: C:\Users\tomas\AppData\Local\Temp\_MEI286082
+[2025-09-15 19:53:26] main: Archivo de configuración: C:\Users\tomas\AppData\Local\Temp\_MEI286082\puerto_esp.txt
+[2025-09-15 19:53:26] main: lanzando subproceso icono_tray
+[2025-09-15 19:53:26] main: lanzando subproceso bonzi_anim
+[2025-09-15 19:53:26] main: monitor_serial()
+[2025-09-15 19:53:26] main: inicio
+[2025-09-15 19:53:26] main: argumento icono_tray
+[2025-09-15 19:53:26] run_icono_tray: inicio
+[2025-09-15 19:53:26] run_icono_tray: icon_path=C:\Users\tomas\AppData\Local\Temp\_MEI286082\icono.ico, exists=True
+[2025-09-15 19:53:26] main: inicio
+[2025-09-15 19:53:26] main: argumento bonzi_anim
+[2025-09-15 19:53:26] run_bonzi_anim: inicio
+[2025-09-15 19:53:26] run_bonzi_anim: gif_path=C:\Users\tomas\AppData\Local\Temp\_MEI286082\bonzi.gif, exists=True
+[2025-09-15 19:53:26] run_icono_tray: icon.run()
+[2025-09-15 19:53:26] run_bonzi_anim: sound_path=C:\Users\tomas\AppData\Local\Temp\_MEI286082\bonzi.mp3, exists=True
+[2025-09-15 19:53:27] run_bonzi_anim: mostrando animación (5s)
+[2025-09-15 19:53:32] run_bonzi_anim: fin
+[2025-09-15 20:07:19] run_icono_tray: fin
+[2025-09-15 20:08:47] main: inicio
+[2025-09-15 20:08:47] main: Iniciando ESP32 Serial Monitor...
+[2025-09-15 20:08:47] main: Directorio de datos: C:\Users\tomas\AppData\Local\Temp\_MEI30922
+[2025-09-15 20:08:47] main: Archivo de configuración: C:\Users\tomas\AppData\Local\Temp\_MEI30922\puerto_esp.txt
+[2025-09-15 20:08:47] main: lanzando subproceso icono_tray
+[2025-09-15 20:08:47] main: lanzando subproceso bonzi_anim
+[2025-09-15 20:08:47] main: monitor_serial()
+[2025-09-15 20:08:47] main: inicio
+[2025-09-15 20:08:47] main: inicio
+[2025-09-15 20:08:47] main: argumento bonzi_anim
+[2025-09-15 20:08:47] main: argumento icono_tray
+[2025-09-15 20:08:47] run_bonzi_anim: inicio
+[2025-09-15 20:08:47] run_icono_tray: inicio
+[2025-09-15 20:08:47] run_bonzi_anim: gif_path=C:\Users\tomas\AppData\Local\Temp\_MEI30922\bonzi.gif, exists=True
+[2025-09-15 20:08:47] run_icono_tray: icon_path=C:\Users\tomas\AppData\Local\Temp\_MEI30922\icono.ico, exists=True
+[2025-09-15 20:08:47] run_icono_tray: icon.run()
+[2025-09-15 20:08:47] run_bonzi_anim: sound_path=C:\Users\tomas\AppData\Local\Temp\_MEI30922\bonzi.mp3, exists=True
+[2025-09-15 20:08:48] run_bonzi_anim: mostrando animación (5s)
+[2025-09-15 20:08:53] run_bonzi_anim: fin
+[2025-09-15 20:10:51] run_icono_tray: fin
+[2025-09-15 20:11:32] main: inicio
+[2025-09-15 20:11:32] main: Iniciando ESP32 Serial Monitor...
+[2025-09-15 20:11:32] main: Directorio de datos: c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app
+[2025-09-15 20:11:32] main: Archivo de configuración: c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\puerto_esp.txt
+[2025-09-15 20:11:32] main: lanzando subproceso icono_tray
+[2025-09-15 20:11:32] main: lanzando subproceso bonzi_anim
+[2025-09-15 20:11:32] main: monitor_serial()
+[2025-09-15 20:11:33] main: inicio
+[2025-09-15 20:11:33] main: argumento icono_tray
+[2025-09-15 20:11:33] run_icono_tray: inicio
+[2025-09-15 20:11:33] run_icono_tray: icon_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\icono.ico, exists=True
+[2025-09-15 20:11:33] main: inicio
+[2025-09-15 20:11:33] main: argumento bonzi_anim
+[2025-09-15 20:11:33] run_bonzi_anim: inicio
+[2025-09-15 20:11:33] run_bonzi_anim: gif_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\bonzi.gif, exists=True
+[2025-09-15 20:11:33] run_icono_tray: icon.run()
+[2025-09-15 20:11:33] run_bonzi_anim: sound_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\bonzi.mp3, exists=True
+[2025-09-15 20:11:34] run_bonzi_anim: mostrando animación (5s)
+[2025-09-15 20:14:17] main: inicio
+[2025-09-15 20:14:17] main: Iniciando ESP32 Serial Monitor...
+[2025-09-15 20:14:17] main: Directorio de datos: c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app
+[2025-09-15 20:14:17] main: Archivo de configuración: c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\puerto_esp.txt
+[2025-09-15 20:14:17] main: lanzando subproceso icono_tray
+[2025-09-15 20:14:17] main: lanzando subproceso bonzi_anim
+[2025-09-15 20:14:17] main: monitor_serial()
+[2025-09-15 20:14:18] main: inicio
+[2025-09-15 20:14:18] main: argumento icono_tray
+[2025-09-15 20:14:18] run_icono_tray: inicio
+[2025-09-15 20:14:18] run_icono_tray: icon_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\icono.ico, exists=True
+[2025-09-15 20:14:18] main: inicio
+[2025-09-15 20:14:18] main: argumento bonzi_anim
+[2025-09-15 20:14:18] run_bonzi_anim: inicio
+[2025-09-15 20:14:18] run_bonzi_anim: gif_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\bonzi.gif, exists=True
+[2025-09-15 20:14:18] run_icono_tray: icon.run()
+[2025-09-15 20:14:18] run_bonzi_anim: sound_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\bonzi.mp3, exists=True
+[2025-09-15 20:14:19] run_bonzi_anim: mostrando animación (5s)
+[2025-09-15 20:14:24] run_bonzi_anim: fin
+[2025-09-15 20:14:28] main: inicio
+[2025-09-15 20:14:28] main: Iniciando ESP32 Serial Monitor...
+[2025-09-15 20:14:28] main: Directorio de datos: c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app
+[2025-09-15 20:14:28] main: Archivo de configuración: c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\puerto_esp.txt
+[2025-09-15 20:14:28] main: lanzando subproceso icono_tray
+[2025-09-15 20:14:28] main: monitor_serial()
+[2025-09-15 20:14:28] main: inicio
+[2025-09-15 20:14:28] main: argumento icono_tray
+[2025-09-15 20:14:28] run_icono_tray: inicio
+[2025-09-15 20:14:28] run_icono_tray: icon_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\icono.ico, exists=True
+[2025-09-15 20:14:28] run_icono_tray: icon.run()
+[2025-09-15 20:16:43] main: inicio
+[2025-09-15 20:16:43] main: Iniciando ESP32 Serial Monitor...
+[2025-09-15 20:16:43] main: Directorio de datos: c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app
+[2025-09-15 20:16:43] main: Archivo de configuración: c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\puerto_esp.txt
+[2025-09-15 20:16:43] main: lanzando subproceso icono_tray
+[2025-09-15 20:16:43] main: monitor_serial()
+[2025-09-15 20:16:43] main: inicio
+[2025-09-15 20:16:43] main: argumento icono_tray
+[2025-09-15 20:16:43] run_icono_tray: inicio
+[2025-09-15 20:16:43] run_icono_tray: icon_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\icono.ico, exists=True
+[2025-09-15 20:16:43] run_icono_tray: icon.run()
+[2025-09-15 20:16:55] main: inicio
+[2025-09-15 20:16:55] main: Iniciando ESP32 Serial Monitor...
+[2025-09-15 20:16:55] main: Directorio de datos: c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app
+[2025-09-15 20:16:55] main: Archivo de configuración: c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\puerto_esp.txt
+[2025-09-15 20:16:55] main: lanzando subproceso icono_tray
+[2025-09-15 20:16:55] main: lanzando subproceso bonzi_anim
+[2025-09-15 20:16:55] main: monitor_serial()
+[2025-09-15 20:16:55] main: inicio
+[2025-09-15 20:16:55] main: argumento icono_tray
+[2025-09-15 20:16:55] run_icono_tray: inicio
+[2025-09-15 20:16:55] run_icono_tray: icon_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\icono.ico, exists=True
+[2025-09-15 20:16:55] main: inicio
+[2025-09-15 20:16:55] main: argumento bonzi_anim
+[2025-09-15 20:16:55] run_bonzi_anim: inicio
+[2025-09-15 20:16:55] run_bonzi_anim: gif_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\bonzi.gif, exists=True
+[2025-09-15 20:16:55] run_icono_tray: icon.run()
+[2025-09-15 20:16:55] run_bonzi_anim: sound_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\bonzi.mp3, exists=True
+[2025-09-15 20:16:56] run_bonzi_anim: mostrando animación (5s)
+[2025-09-15 20:17:01] run_bonzi_anim: fin
+[2025-09-15 20:17:11] main: inicio
+[2025-09-15 20:17:11] main: Iniciando ESP32 Serial Monitor...
+[2025-09-15 20:17:11] main: Directorio de datos: c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app
+[2025-09-15 20:17:11] main: Archivo de configuración: c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\puerto_esp.txt
+[2025-09-15 20:17:11] main: lanzando subproceso icono_tray
+[2025-09-15 20:17:11] main: lanzando subproceso bonzi_anim
+[2025-09-15 20:17:11] main: monitor_serial()
+[2025-09-15 20:17:11] main: inicio
+[2025-09-15 20:17:11] main: argumento icono_tray
+[2025-09-15 20:17:11] run_icono_tray: inicio
+[2025-09-15 20:17:11] run_icono_tray: icon_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\icono.ico, exists=True
+[2025-09-15 20:17:11] main: inicio
+[2025-09-15 20:17:11] main: argumento bonzi_anim
+[2025-09-15 20:17:11] run_bonzi_anim: inicio
+[2025-09-15 20:17:11] run_bonzi_anim: gif_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\bonzi.gif, exists=True
+[2025-09-15 20:17:11] run_icono_tray: icon.run()
+[2025-09-15 20:17:11] run_bonzi_anim: sound_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\bonzi.mp3, exists=True
+[2025-09-15 20:17:12] run_bonzi_anim: mostrando animación (5s)
+[2025-09-15 20:17:17] run_bonzi_anim: fin
+[2025-09-15 20:21:18] main: inicio
+[2025-09-15 20:21:18] main: Iniciando ESP32 Serial Monitor...
+[2025-09-15 20:21:18] main: Directorio de datos: c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app
+[2025-09-15 20:21:18] main: Archivo de configuración: c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\puerto_esp.txt
+[2025-09-15 20:21:18] main: lanzando subproceso icono_tray
+[2025-09-15 20:21:18] main: monitor_serial()
+[2025-09-15 20:21:18] main: inicio
+[2025-09-15 20:21:18] main: argumento icono_tray
+[2025-09-15 20:21:18] run_icono_tray: inicio
+[2025-09-15 20:21:18] run_icono_tray: icon_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\icono.ico, exists=True
+[2025-09-15 20:21:18] run_icono_tray: icon.run()
+[2025-09-15 20:21:31] main: inicio
+[2025-09-15 20:21:31] main: Iniciando ESP32 Serial Monitor...
+[2025-09-15 20:21:31] main: Directorio de datos: c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app
+[2025-09-15 20:21:31] main: Archivo de configuración: c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\puerto_esp.txt
+[2025-09-15 20:21:31] main: lanzando subproceso icono_tray
+[2025-09-15 20:21:31] main: lanzando subproceso bonzi_anim (primera vez, sin archivo)
+[2025-09-15 20:21:31] main: monitor_serial()
+[2025-09-15 20:21:32] main: inicio
+[2025-09-15 20:21:32] main: argumento icono_tray
+[2025-09-15 20:21:32] run_icono_tray: inicio
+[2025-09-15 20:21:32] run_icono_tray: icon_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\icono.ico, exists=True
+[2025-09-15 20:21:32] main: inicio
+[2025-09-15 20:21:32] main: argumento bonzi_anim
+[2025-09-15 20:21:32] run_bonzi_anim: inicio
+[2025-09-15 20:21:32] run_bonzi_anim: gif_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\bonzi.gif, exists=True
+[2025-09-15 20:21:32] run_icono_tray: icon.run()
+[2025-09-15 20:21:32] run_bonzi_anim: sound_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\bonzi.mp3, exists=True
+[2025-09-15 20:21:32] run_bonzi_anim: mostrando animación (5s)
+[2025-09-15 20:21:37] run_bonzi_anim: fin
+[2025-09-15 20:21:41] main: inicio
+[2025-09-15 20:21:41] main: Iniciando ESP32 Serial Monitor...
+[2025-09-15 20:21:41] main: Directorio de datos: c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app
+[2025-09-15 20:21:41] main: Archivo de configuración: c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\puerto_esp.txt
+[2025-09-15 20:21:41] main: lanzando subproceso icono_tray
+[2025-09-15 20:21:41] main: lanzando subproceso bonzi_anim (primera vez, sin archivo)
+[2025-09-15 20:21:41] main: monitor_serial()
+[2025-09-15 20:21:42] main: inicio
+[2025-09-15 20:21:42] main: inicio
+[2025-09-15 20:21:42] main: argumento bonzi_anim
+[2025-09-15 20:21:42] main: argumento icono_tray
+[2025-09-15 20:21:42] run_bonzi_anim: inicio
+[2025-09-15 20:21:42] run_icono_tray: inicio
+[2025-09-15 20:21:42] run_icono_tray: icon_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\icono.ico, exists=True
+[2025-09-15 20:21:42] run_bonzi_anim: gif_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\bonzi.gif, exists=True
+[2025-09-15 20:21:42] run_icono_tray: icon.run()
+[2025-09-15 20:21:42] run_bonzi_anim: sound_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\bonzi.mp3, exists=True
+[2025-09-15 20:21:42] run_bonzi_anim: mostrando animación (5s)
+[2025-09-15 20:21:47] run_bonzi_anim: fin
+[2025-09-15 20:22:50] main: inicio
+[2025-09-15 20:22:50] main: Iniciando ESP32 Serial Monitor...
+[2025-09-15 20:22:50] main: Directorio de datos: c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app
+[2025-09-15 20:22:50] main: Archivo de configuración: c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\puerto_esp.txt
+[2025-09-15 20:22:50] main: lanzando subproceso icono_tray
+[2025-09-15 20:22:50] main: monitor_serial()
+[2025-09-15 20:22:50] main: inicio
+[2025-09-15 20:22:50] main: argumento icono_tray
+[2025-09-15 20:22:50] run_icono_tray: inicio
+[2025-09-15 20:22:50] run_icono_tray: icon_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\icono.ico, exists=True
+[2025-09-15 20:22:51] run_icono_tray: icon.run()
+[2025-09-15 20:22:56] main: inicio
+[2025-09-15 20:22:56] main: Iniciando ESP32 Serial Monitor...
+[2025-09-15 20:22:56] main: Directorio de datos: c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app
+[2025-09-15 20:22:56] main: Archivo de configuración: c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\puerto_esp.txt
+[2025-09-15 20:22:56] main: lanzando subproceso icono_tray
+[2025-09-15 20:22:56] main: lanzando subproceso bonzi_anim (primera vez, sin archivo)
+[2025-09-15 20:22:56] main: monitor_serial()
+[2025-09-15 20:22:57] main: inicio
+[2025-09-15 20:22:57] main: argumento icono_tray
+[2025-09-15 20:22:57] run_icono_tray: inicio
+[2025-09-15 20:22:57] run_icono_tray: icon_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\icono.ico, exists=True
+[2025-09-15 20:22:57] main: inicio
+[2025-09-15 20:22:57] main: argumento bonzi_anim
+[2025-09-15 20:22:57] run_bonzi_anim: inicio
+[2025-09-15 20:22:57] run_bonzi_anim: gif_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\bonzi.gif, exists=True
+[2025-09-15 20:22:57] run_icono_tray: icon.run()
+[2025-09-15 20:22:57] run_bonzi_anim: sound_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\bonzi.mp3, exists=True
+[2025-09-15 20:22:58] run_bonzi_anim: mostrando animación (5s)
+[2025-09-15 20:23:03] run_bonzi_anim: fin
+[2025-09-15 20:27:55] main: inicio
+[2025-09-15 20:27:55] main: Iniciando ESP32 Serial Monitor...
+[2025-09-15 20:27:55] main: Directorio de datos: C:\Users\tomas\AppData\Local\Temp\_MEI68962
+[2025-09-15 20:27:55] main: Archivo de configuración: C:\Users\tomas\AppData\Local\Temp\_MEI68962\puerto_esp.txt
+[2025-09-15 20:27:55] main: lanzando subproceso icono_tray
+[2025-09-15 20:27:55] main: lanzando subproceso bonzi_anim (primera vez, sin archivo)
+[2025-09-15 20:27:55] main: monitor_serial()
+[2025-09-15 20:27:55] main: inicio
+[2025-09-15 20:27:55] main: argumento icono_tray
+[2025-09-15 20:27:55] run_icono_tray: inicio
+[2025-09-15 20:27:55] run_icono_tray: icon_path=C:\Users\tomas\AppData\Local\Temp\_MEI68962\icono.ico, exists=True
+[2025-09-15 20:27:55] main: inicio
+[2025-09-15 20:27:55] main: argumento bonzi_anim
+[2025-09-15 20:27:55] run_bonzi_anim: inicio
+[2025-09-15 20:27:55] run_bonzi_anim: gif_path=C:\Users\tomas\AppData\Local\Temp\_MEI68962\bonzi.gif, exists=True
+[2025-09-15 20:27:55] run_icono_tray: icon.run()
+[2025-09-15 20:27:55] run_bonzi_anim: sound_path=C:\Users\tomas\AppData\Local\Temp\_MEI68962\bonzi.mp3, exists=True
+[2025-09-15 20:27:56] run_bonzi_anim: mostrando animación (5s)
+[2025-09-15 20:28:01] run_bonzi_anim: fin
+[2025-09-15 20:28:29] main: inicio
+[2025-09-15 20:28:29] main: Iniciando ESP32 Serial Monitor...
+[2025-09-15 20:28:29] main: Directorio de datos: C:\Users\tomas\AppData\Local\Temp\_MEI172282
+[2025-09-15 20:28:29] main: Archivo de configuración: C:\Users\tomas\AppData\Local\Temp\_MEI172282\puerto_esp.txt
+[2025-09-15 20:28:29] main: lanzando subproceso icono_tray
+[2025-09-15 20:28:29] main: lanzando subproceso bonzi_anim (primera vez, sin archivo)
+[2025-09-15 20:28:29] main: monitor_serial()
+[2025-09-15 20:28:30] main: inicio
+[2025-09-15 20:28:30] main: inicio
+[2025-09-15 20:28:30] main: argumento bonzi_anim
+[2025-09-15 20:28:30] main: argumento icono_tray
+[2025-09-15 20:28:30] run_bonzi_anim: inicio
+[2025-09-15 20:28:30] run_icono_tray: inicio
+[2025-09-15 20:28:30] run_bonzi_anim: gif_path=C:\Users\tomas\AppData\Local\Temp\_MEI172282\bonzi.gif, exists=True
+[2025-09-15 20:28:30] run_icono_tray: icon_path=C:\Users\tomas\AppData\Local\Temp\_MEI172282\icono.ico, exists=True
+[2025-09-15 20:28:30] run_icono_tray: icon.run()
+[2025-09-15 20:28:30] run_bonzi_anim: sound_path=C:\Users\tomas\AppData\Local\Temp\_MEI172282\bonzi.mp3, exists=True
+[2025-09-15 20:28:30] run_bonzi_anim: mostrando animación (5s)
+[2025-09-15 20:28:35] run_bonzi_anim: fin
+[2025-09-15 20:37:32] main: inicio
+[2025-09-15 20:37:32] main: Iniciando ESP32 Serial Monitor...
+[2025-09-15 20:37:32] main: Directorio de datos: c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app
+[2025-09-15 20:37:32] main: Archivo de configuración: c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\puerto_esp.txt
+[2025-09-15 20:37:32] main: lanzando subproceso icono_tray
+[2025-09-15 20:37:32] main: lanzando subproceso bonzi_anim (primera vez, sin archivo)
+[2025-09-15 20:37:32] main: monitor_serial()
+[2025-09-15 20:37:32] main: inicio
+[2025-09-15 20:37:32] main: argumento icono_tray
+[2025-09-15 20:37:32] run_icono_tray: inicio
+[2025-09-15 20:37:32] run_icono_tray: icon_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\icono.ico, exists=True
+[2025-09-15 20:37:32] main: inicio
+[2025-09-15 20:37:32] main: argumento bonzi_anim
+[2025-09-15 20:37:32] run_bonzi_anim: inicio
+[2025-09-15 20:37:32] run_bonzi_anim: gif_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\bonzi.gif, exists=True
+[2025-09-15 20:37:32] run_icono_tray: icon.run()
+[2025-09-15 20:37:32] run_bonzi_anim: sound_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\bonzi.mp3, exists=True
+[2025-09-15 20:37:33] run_bonzi_anim: mostrando animación (5s)
+[2025-09-15 20:37:38] run_bonzi_anim: fin
+[2025-09-15 20:37:45] main: inicio
+[2025-09-15 20:37:45] main: Iniciando ESP32 Serial Monitor...
+[2025-09-15 20:37:45] main: Directorio de datos: c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app
+[2025-09-15 20:37:45] main: Archivo de configuración: c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\puerto_esp.txt
+[2025-09-15 20:37:45] main: lanzando subproceso icono_tray
+[2025-09-15 20:37:45] main: monitor_serial()
+[2025-09-15 20:37:45] main: inicio
+[2025-09-15 20:37:45] main: argumento icono_tray
+[2025-09-15 20:37:45] run_icono_tray: inicio
+[2025-09-15 20:37:45] run_icono_tray: icon_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\icono.ico, exists=True
+[2025-09-15 20:37:45] run_icono_tray: icon.run()
+[2025-09-15 20:37:55] main: inicio
+[2025-09-15 20:37:55] main: Iniciando ESP32 Serial Monitor...
+[2025-09-15 20:37:55] main: Directorio de datos: c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app
+[2025-09-15 20:37:55] main: Archivo de configuración: c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\puerto_esp.txt
+[2025-09-15 20:37:55] main: lanzando subproceso icono_tray
+[2025-09-15 20:37:55] main: lanzando subproceso bonzi_anim (primera vez, sin archivo)
+[2025-09-15 20:37:55] main: monitor_serial()
+[2025-09-15 20:37:55] main: inicio
+[2025-09-15 20:37:55] main: argumento icono_tray
+[2025-09-15 20:37:55] run_icono_tray: inicio
+[2025-09-15 20:37:55] run_icono_tray: icon_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\icono.ico, exists=True
+[2025-09-15 20:37:55] main: inicio
+[2025-09-15 20:37:55] main: argumento bonzi_anim
+[2025-09-15 20:37:55] run_bonzi_anim: inicio
+[2025-09-15 20:37:55] run_bonzi_anim: gif_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\bonzi.gif, exists=True
+[2025-09-15 20:37:55] run_icono_tray: icon.run()
+[2025-09-15 20:37:55] run_bonzi_anim: sound_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\bonzi.mp3, exists=True
+[2025-09-15 20:37:56] run_bonzi_anim: mostrando animación (5s)
+[2025-09-15 20:38:01] run_bonzi_anim: fin
+[2025-09-15 20:38:07] main: inicio
+[2025-09-15 20:38:07] main: Iniciando ESP32 Serial Monitor...
+[2025-09-15 20:38:07] main: Directorio de datos: c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app
+[2025-09-15 20:38:07] main: Archivo de configuración: c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\puerto_esp.txt
+[2025-09-15 20:38:07] main: lanzando subproceso icono_tray
+[2025-09-15 20:38:07] main: monitor_serial()
+[2025-09-15 20:38:07] main: inicio
+[2025-09-15 20:38:07] main: argumento icono_tray
+[2025-09-15 20:38:07] run_icono_tray: inicio
+[2025-09-15 20:38:07] run_icono_tray: icon_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\icono.ico, exists=True
+[2025-09-15 20:38:07] run_icono_tray: icon.run()
+[2025-09-15 20:38:20] main: inicio
+[2025-09-15 20:38:20] main: Iniciando ESP32 Serial Monitor...
+[2025-09-15 20:38:20] main: Directorio de datos: c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app
+[2025-09-15 20:38:20] main: Archivo de configuración: c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\puerto_esp.txt
+[2025-09-15 20:38:20] main: lanzando subproceso icono_tray
+[2025-09-15 20:38:20] main: lanzando subproceso bonzi_anim (primera vez, sin archivo)
+[2025-09-15 20:38:20] main: monitor_serial()
+[2025-09-15 20:38:21] main: inicio
+[2025-09-15 20:38:21] main: argumento icono_tray
+[2025-09-15 20:38:21] run_icono_tray: inicio
+[2025-09-15 20:38:21] run_icono_tray: icon_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\icono.ico, exists=True
+[2025-09-15 20:38:21] main: inicio
+[2025-09-15 20:38:21] main: argumento bonzi_anim
+[2025-09-15 20:38:21] run_bonzi_anim: inicio
+[2025-09-15 20:38:21] run_bonzi_anim: gif_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\bonzi.gif, exists=True
+[2025-09-15 20:38:21] run_icono_tray: icon.run()
+[2025-09-15 20:38:21] run_bonzi_anim: sound_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\bonzi.mp3, exists=True
+[2025-09-15 20:38:21] run_bonzi_anim: mostrando animación (5s)
+[2025-09-15 20:38:23] main: fin
+[2025-09-15 20:38:26] run_bonzi_anim: fin
+[2025-09-15 20:40:22] main: inicio
+[2025-09-15 20:40:22] main: Iniciando ESP32 Serial Monitor...
+[2025-09-15 20:40:22] main: Directorio de datos: C:\Users\tomas\AppData\Local\Temp\_MEI140202
+[2025-09-15 20:40:22] main: Archivo de configuración: C:\Users\tomas\AppData\Local\Temp\_MEI140202\puerto_esp.txt
+[2025-09-15 20:40:22] main: lanzando subproceso icono_tray
+[2025-09-15 20:40:22] main: lanzando subproceso bonzi_anim (primera vez, sin archivo)
+[2025-09-15 20:40:22] main: monitor_serial()
+[2025-09-15 20:40:22] main: inicio
+[2025-09-15 20:40:22] main: inicio
+[2025-09-15 20:40:22] main: argumento bonzi_anim
+[2025-09-15 20:40:22] main: argumento icono_tray
+[2025-09-15 20:40:22] run_bonzi_anim: inicio
+[2025-09-15 20:40:22] run_icono_tray: inicio
+[2025-09-15 20:40:22] run_bonzi_anim: gif_path=C:\Users\tomas\AppData\Local\Temp\_MEI140202\bonzi.gif, exists=True
+[2025-09-15 20:40:22] run_icono_tray: icon_path=C:\Users\tomas\AppData\Local\Temp\_MEI140202\icono.ico, exists=True
+[2025-09-15 20:40:22] run_icono_tray: icon.run()
+[2025-09-15 20:40:22] run_bonzi_anim: sound_path=C:\Users\tomas\AppData\Local\Temp\_MEI140202\bonzi.mp3, exists=True
+[2025-09-15 20:40:23] run_bonzi_anim: mostrando animación (5s)
+[2025-09-15 20:40:28] run_bonzi_anim: fin
+[2025-09-15 20:42:55] main: fin
+[2025-09-15 20:44:02] main: inicio
+[2025-09-15 20:44:02] main: Iniciando ESP32 Serial Monitor...
+[2025-09-15 20:44:02] main: Directorio de datos: C:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app
+[2025-09-15 20:44:02] main: Archivo de configuración: C:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\puerto_esp.txt
+[2025-09-15 20:44:02] main: lanzando subproceso icono_tray
+[2025-09-15 20:44:02] main: lanzando subproceso bonzi_anim (primera vez, sin archivo)
+[2025-09-15 20:44:02] main: monitor_serial()
+[2025-09-15 20:44:03] main: inicio
+[2025-09-15 20:44:03] main: inicio
+[2025-09-15 20:44:03] main: argumento bonzi_anim
+[2025-09-15 20:44:03] main: argumento icono_tray
+[2025-09-15 20:44:03] run_bonzi_anim: inicio
+[2025-09-15 20:44:03] run_icono_tray: inicio
+[2025-09-15 20:44:03] run_bonzi_anim: gif_path=C:\Users\tomas\AppData\Local\Temp\_MEI285482\bonzi.gif, exists=True
+[2025-09-15 20:44:03] run_icono_tray: icon_path=C:\Users\tomas\AppData\Local\Temp\_MEI285482\icono.ico, exists=True
+[2025-09-15 20:44:03] run_icono_tray: icon.run()
+[2025-09-15 20:44:03] run_bonzi_anim: sound_path=C:\Users\tomas\AppData\Local\Temp\_MEI285482\bonzi.mp3, exists=True
+[2025-09-15 20:44:03] run_bonzi_anim: mostrando animación (5s)
+[2025-09-15 20:44:08] run_bonzi_anim: fin
+[2025-09-15 20:46:50] main: fin
+[2025-09-15 20:46:55] main: inicio
+[2025-09-15 20:46:55] main: Iniciando ESP32 Serial Monitor...
+[2025-09-15 20:46:55] main: Directorio de datos: C:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app
+[2025-09-15 20:46:55] main: Archivo de configuración: C:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\puerto_esp.txt
+[2025-09-15 20:46:55] main: lanzando subproceso icono_tray
+[2025-09-15 20:46:55] main: lanzando subproceso bonzi_anim (primera vez, sin archivo)
+[2025-09-15 20:46:55] main: monitor_serial()
+[2025-09-15 20:46:56] main: inicio
+[2025-09-15 20:46:56] main: inicio
+[2025-09-15 20:46:56] main: argumento icono_tray
+[2025-09-15 20:46:56] main: argumento bonzi_anim
+[2025-09-15 20:46:56] run_icono_tray: inicio
+[2025-09-15 20:46:56] run_bonzi_anim: inicio
+[2025-09-15 20:46:56] run_icono_tray: icon_path=C:\Users\tomas\AppData\Local\Temp\_MEI263042\icono.ico, exists=True
+[2025-09-15 20:46:56] run_bonzi_anim: gif_path=C:\Users\tomas\AppData\Local\Temp\_MEI263042\bonzi.gif, exists=True
+[2025-09-15 20:46:56] run_icono_tray: icon.run()
+[2025-09-15 20:46:56] run_bonzi_anim: sound_path=C:\Users\tomas\AppData\Local\Temp\_MEI263042\bonzi.mp3, exists=True
+[2025-09-15 20:46:56] run_bonzi_anim: mostrando animación (5s)
+[2025-09-15 20:47:01] run_bonzi_anim: fin
+[2025-09-15 20:58:30] main: fin
+[2025-09-15 20:58:32] main: inicio
+[2025-09-15 20:58:32] main: Iniciando ESP32 Serial Monitor...
+[2025-09-15 20:58:32] main: Directorio de datos: c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app
+[2025-09-15 20:58:32] main: Archivo de configuración: c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\puerto_esp.txt
+[2025-09-15 20:58:32] main: lanzando subproceso icono_tray
+[2025-09-15 20:58:32] main: monitor_serial()
+[2025-09-15 20:58:32] main: inicio
+[2025-09-15 20:58:32] main: argumento icono_tray
+[2025-09-15 20:58:32] run_icono_tray: inicio
+[2025-09-15 20:58:32] run_icono_tray: icon_path=c:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\icono.ico, exists=True
+[2025-09-15 20:58:32] run_icono_tray: icon.run()
+[2025-09-15 21:00:57] main: inicio
+[2025-09-15 21:00:57] main: Iniciando ESP32 Serial Monitor...
+[2025-09-15 21:00:57] main: Directorio de datos: C:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app
+[2025-09-15 21:00:57] main: Archivo de configuración: C:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\puerto_esp.txt
+[2025-09-15 21:00:57] main: lanzando subproceso icono_tray
+[2025-09-15 21:00:57] main: lanzando subproceso bonzi_anim (primera vez, sin archivo)
+[2025-09-15 21:00:57] main: monitor_serial()
+[2025-09-15 21:00:57] main: inicio
+[2025-09-15 21:00:57] main: inicio
+[2025-09-15 21:00:57] main: argumento bonzi_anim
+[2025-09-15 21:00:57] main: argumento icono_tray
+[2025-09-15 21:00:57] run_bonzi_anim: inicio
+[2025-09-15 21:00:57] run_icono_tray: inicio
+[2025-09-15 21:00:57] run_bonzi_anim: gif_path=C:\Users\tomas\AppData\Local\Temp\_MEI251962\bonzi.gif, exists=True
+[2025-09-15 21:00:57] run_icono_tray: icon_path=C:\Users\tomas\AppData\Local\Temp\_MEI251962\icono.ico, exists=True
+[2025-09-15 21:00:58] run_icono_tray: icon.run()
+[2025-09-15 21:00:58] run_bonzi_anim: sound_path=C:\Users\tomas\AppData\Local\Temp\_MEI251962\bonzi.mp3, exists=True
+[2025-09-15 21:00:58] run_bonzi_anim: mostrando animación (5s)
+[2025-09-15 21:01:03] run_bonzi_anim: fin
+[2025-09-15 21:01:41] main: fin
+[2025-09-15 21:01:49] main: inicio
+[2025-09-15 21:01:49] main: Iniciando ESP32 Serial Monitor...
+[2025-09-15 21:01:49] main: Directorio de datos: C:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app
+[2025-09-15 21:01:49] main: Archivo de configuración: C:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\puerto_esp.txt
+[2025-09-15 21:01:49] main: lanzando subproceso icono_tray
+[2025-09-15 21:01:49] main: lanzando subproceso bonzi_anim (primera vez, sin archivo)
+[2025-09-15 21:01:49] main: monitor_serial()
+[2025-09-15 21:01:49] main: inicio
+[2025-09-15 21:01:49] main: inicio
+[2025-09-15 21:01:49] main: argumento icono_tray
+[2025-09-15 21:01:49] main: argumento bonzi_anim
+[2025-09-15 21:01:49] run_icono_tray: inicio
+[2025-09-15 21:01:49] run_bonzi_anim: inicio
+[2025-09-15 21:01:49] run_icono_tray: icon_path=C:\Users\tomas\AppData\Local\Temp\_MEI70522\icono.ico, exists=True
+[2025-09-15 21:01:49] run_bonzi_anim: gif_path=C:\Users\tomas\AppData\Local\Temp\_MEI70522\bonzi.gif, exists=True
+[2025-09-15 21:01:49] run_icono_tray: icon.run()
+[2025-09-15 21:01:49] run_bonzi_anim: sound_path=C:\Users\tomas\AppData\Local\Temp\_MEI70522\bonzi.mp3, exists=True
+[2025-09-15 21:01:50] run_bonzi_anim: mostrando animación (5s)
+[2025-09-15 21:01:55] run_bonzi_anim: fin
+[2025-09-15 21:02:41] main: fin
+[2025-09-15 21:02:45] main: inicio
+[2025-09-15 21:02:45] main: Iniciando ESP32 Serial Monitor...
+[2025-09-15 21:02:45] main: Directorio de datos: C:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app
+[2025-09-15 21:02:45] main: Archivo de configuración: C:\Users\tomas\OneDrive\Documentos\Arduino\pico\EnterExterno\app\puerto_esp.txt
+[2025-09-15 21:02:45] main: lanzando subproceso icono_tray
+[2025-09-15 21:02:45] main: lanzando subproceso bonzi_anim (primera vez, sin archivo)
+[2025-09-15 21:02:45] main: monitor_serial()
+[2025-09-15 21:02:45] main: inicio
+[2025-09-15 21:02:45] main: inicio
+[2025-09-15 21:02:45] main: argumento icono_tray
+[2025-09-15 21:02:45] main: argumento bonzi_anim
+[2025-09-15 21:02:45] run_icono_tray: inicio
+[2025-09-15 21:02:45] run_bonzi_anim: inicio
+[2025-09-15 21:02:45] run_icono_tray: icon_path=C:\Users\tomas\AppData\Local\Temp\_MEI259962\icono.ico, exists=True
+[2025-09-15 21:02:45] run_bonzi_anim: gif_path=C:\Users\tomas\AppData\Local\Temp\_MEI259962\bonzi.gif, exists=True
+[2025-09-15 21:02:45] run_icono_tray: icon.run()
+[2025-09-15 21:02:46] run_bonzi_anim: sound_path=C:\Users\tomas\AppData\Local\Temp\_MEI259962\bonzi.mp3, exists=True
+[2025-09-15 21:02:46] run_bonzi_anim: mostrando animación (5s)
+[2025-09-15 21:02:51] run_bonzi_anim: fin
+[2025-09-15 21:47:00] main: fin

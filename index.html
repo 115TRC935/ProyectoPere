@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>🎁 PERE GIFT - Instructivo 🎁</title>
+  <style>
+    html, body { margin: 0; padding: 0; overflow-x: hidden; position: relative; }
+    body { 
+      font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      color: #333;
+      background-color: #fff;
+      height: 200vh; /* Para permitir scroll */
+    }
+    .hidden { display: none !important; }
+    
+    /* Estilos del instructivo */
+    .main-content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .gift-title {
+      color: #FF69B4;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+      font-size: 2.5rem;
+      margin: 20px 0;
+    }
+    
+    .gift-subtitle {
+      font-style: italic;
+      color: #666;
+      margin-bottom: 30px;
+    }
+    
+    .gift-subtitle strong {
+      color: #FF69B4;
+    }
+    
+    .authors-box {
+      background-color: #FFF0F5;
+      padding: 20px;
+      border-radius: 10px;
+      margin: 20px 0;
+    }
+    
+    .authors-list {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin: 15px 0;
+      flex-wrap: wrap;
+    }
+    
+    .author {
+      color: #FF69B4;
+      font-weight: bold;
+    }
+    
+    .instructions-box {
+      background: linear-gradient(135deg, #FFF0F5, #FFB6C1);
+      padding: 30px;
+      border-radius: 10px;
+      text-align: left;
+      margin: 30px 0;
+    }
+    
+    .instructions-title {
+      color: #333;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    
+    .instruction-step {
+      margin: 15px 0;
+      padding: 10px;
+      background: rgba(255, 255, 255, 0.3);
+      border-radius: 8px;
+      border-left: 4px solid #FF69B4;
+    }
+    
+    .footer-love {
+      margin-top: 50px;
+      color: #FF69B4;
+      font-style: italic;
+    }
+    
+    .banner-img, .background-img, .footer-img {
+      border-radius: 10px;
+      margin: 20px 0;
+      max-width: 100%;
+      height: auto;
+    }
+    
+    .footer-img {
+      border-radius: 50%;
+      width: 200px;
+    }
+    
+    /* Estilos para GIFs */
+    #gifContainer {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: none;
+      z-index: 10000;
+    }
+    
+    #gifContainer img {
+      width: 600px;
+      height: auto;
+      border-radius: 15px;
+    }
+    
+    .random-gif {
+      position: fixed;
+      z-index: 9999;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
+    
+    /* Spinning Cat - fondo detrás de todo */
+    .spinning-cat {
+      position: fixed;
+      z-index: 1; /* Detrás de todo el contenido visible pero encima del fondo */
+      pointer-events: none; /* No interfiere con clicks */
+      opacity: 0.8;
+      animation: spinningCatMove 8s linear;
+    }
+    
+    @keyframes spinningCatMove {
+      0% {
+        transform: translateX(-200px) rotate(0deg);
+      }
+      50% {
+        transform: translateX(calc(50vw - 100px)) rotate(180deg);
+      }
+      100% {
+        transform: translateX(calc(100vw + 200px)) rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Contenido principal del instructivo -->
+  <div class="main-content hidden">
+    <!-- GIF de Sully que aparece al hacer scroll -->
+    <div id="gifContainer">
+      <img src="web/files/sully.gif" alt="Sully GIF">
+    </div>
+    <!-- Audio elements -->
+    <audio id="sullySound" src="web/files/sully.mp3" preload="auto"></audio>
+    <audio id="spinningCatSound" src="web/files/spinning-cat.mp3" preload="auto"></audio>
+    
+    <!-- Banner principal -->
+    <img src="web/files/banner.jpeg" class="banner-img" alt="Banner Pere Gift">
+    
+    <!-- Título principal -->
+    <h1 class="gift-title">🎁 INSTRUCTIVO DE USO DEL PERE GIFT 🎁</h1>
+    
+    <!-- Subtítulo -->
+    <p class="gift-subtitle">
+      <strong>Pere chupate mansa</strong>
+    </p>
+    
+    <!-- Caja de autores -->
+    <div class="authors-box">
+      Este Pere gift es un regalo en conjunto entre:
+      <div class="authors-list">
+        <div class="author">🌸 Josefina Porolli</div>
+        <div class="author">🌺 Lucas Perinetti</div>
+        <div class="author">🌷 Tomás Aguinaga</div>
+      </div>
+    </div>
+    
+    <!-- Imagen de fondo -->
+    <img src="web/files/backgound.png" class="background-img" alt="Background" style="width: 300px;">
+    
+    <!-- Caja de instrucciones -->
+    <div class="instructions-box">
+      <h2 class="instructions-title">📝 Instrucciones para disfrutar tu regalo:</h2>
+      
+      <div class="instruction-step">
+        <strong>1 -</strong> Escanear el QR del muy elegante envoltorio (si estás acá y no lo escaneaste es porque sos terrible impostor, rajá de acá).
+      </div>
+      
+      <div class="instruction-step">
+        <strong>2 -</strong> Leer el instructivo (este).
+      </div>
+      
+      <div class="instruction-step">
+        <strong>3 -</strong> Abrir el muy elegante envoltorio con cuidado de que no se caiga el durazno.
+      </div>
+      
+      <div class="instruction-step">
+        <strong>4 -</strong> Extraer el artefacto. Es muy importante en esta parte resistirse a cualquier tipo de eyaculaciones.
+      </div>
+      
+      <div class="instruction-step">
+        <strong>5 -</strong> Descargar el contenido de este repositorio. Se descargará como un .zip.
+      </div>
+      
+      <div class="instruction-step">
+        <strong>6 -</strong> Ir a donde mierda sea que hayas guardado lo que acabás de descargar y descomprimirlo. Mientras se descomprime, podrías considerar la compra de WinRAR.
+      </div>
+      
+      <div class="instruction-step">
+        <strong>7 -</strong> Ejecutar el archivo de instalación <code>app/INSTALAR_SIMPLE.bat</code> y seguir las instrucciones que aparezcan en la consola.
+      </div>
+      
+      <div class="instruction-step">
+        <strong>8 -</strong> Luego de la instalación, se habrá creado un archivo .exe, el cual es el ejecutable de la aplicación.
+      </div>
+      
+      <div class="instruction-step">
+        <strong>9 -</strong> Ejecutá el archivo.
+      </div>
+      
+      <div class="instruction-step">
+        <strong>10 -</strong> Conectá el artefacto que sacaste del muy elegante envoltorio unas instrucciones atrás.
+      </div>
+      
+      <div class="instruction-step">
+        <strong>11 -</strong> Y ya está pibe, no sé qué más querés que te diga, disfrutá tu coso.
+      </div>
+    </div>
+    
+    <!-- Footer con imagen -->
+    <div>
+      <img src="web/files/LEDESMA.png" class="footer-img" alt="Ledesma">
+      <p class="footer-love">Con amor y dulzura, tus amigos ❤</p>
+    </div>
+  </div>
+
+  <!-- Scripts de funcionalidad -->
+  <script src="web/spamModal.js"></script>
+  <script src="web/virusAlert.js"></script>
+  <script src="web/gayCounter.js"></script>
+  <script src="web/gayQuestion.js"></script>
+  
+  <script>
+    // Función para mostrar el spinning cat
+    function showSpinningCat() {
+      const cat = document.createElement('img');
+      cat.src = 'web/files/spinning-cat.gif';
+      cat.className = 'spinning-cat';
+      
+      // Tamaño del gato (entre 150 y 300px)
+      const size = Math.floor(Math.random() * 150 + 150);
+      cat.style.width = size + 'px';
+      cat.style.height = size + 'px';
+      
+      // Posición vertical aleatoria
+      const maxTop = window.innerHeight - size;
+      cat.style.top = Math.floor(Math.random() * maxTop) + 'px';
+      
+      // Agregar al DOM
+      document.body.appendChild(cat);
+      
+      // Reproducir sonido del gato
+      const catSound = document.getElementById('spinningCatSound');
+      if (catSound) {
+        catSound.currentTime = 0; // Reiniciar desde el inicio
+        catSound.play()
+          .then(() => {
+            console.log('Sonido spinning cat reproducido');
+          })
+          .catch(error => {
+            console.log('Error al reproducir spinning cat:', error);
+          });
+      }
+      
+      // Remover después de la animación (8 segundos)
+      setTimeout(() => {
+        if (cat.parentNode) {
+          document.body.removeChild(cat);
+        }
+      }, 8000);
+      
+      // Programar el próximo spinning cat en 20 segundos
+      setTimeout(showSpinningCat, 20000);
+    }
+
+    // Función para mostrar GIFs aleatorios (del js_obj)
+    function showRandomGif() {
+      const gif = document.createElement('img');
+      gif.src = 'web/files/giphy.gif';
+      gif.className = 'random-gif';
+      
+      // Primero asignamos el ancho (entre 100 y 600px)
+      const width = Math.floor(Math.random() * 500 + 100);
+      gif.style.width = width + 'px';
+      
+      // Esperamos a que cargue la imagen para conocer su relación de aspecto
+      gif.onload = function() {
+        // Calculamos el alto basado en la relación de aspecto natural de la imagen
+        const height = this.naturalHeight * (width / this.naturalWidth);
+        
+        // Aseguramos que la posición no haga que el GIF se salga de la pantalla
+        const maxLeft = window.innerWidth - width;
+        const maxTop = window.innerHeight - height;
+        
+        gif.style.left = Math.floor(Math.random() * maxLeft) + 'px';
+        gif.style.top = Math.floor(Math.random() * maxTop) + 'px';
+        gif.style.height = height + 'px';
+        
+        document.body.appendChild(gif);
+        
+        // Eliminar el GIF después de 1 segundo
+        setTimeout(() => {
+          if (gif.parentNode) {
+            document.body.removeChild(gif);
+          }
+        }, 1000);
+      };
+      
+      // Si hay error al cargar la imagen
+      gif.onerror = function() {
+        console.error('No se pudo cargar el GIF');
+      };
+      
+      // Programar el próximo GIF
+      setTimeout(showRandomGif, Math.random() * 10000 + 5000);
+    }
+
+    // Función para el GIF de Sully al hacer scroll
+    function initSullyScroll() {
+      const gifContainer = document.getElementById('gifContainer');
+      const sullySound = document.getElementById('sullySound');
+      let hasTriggered = false;
+
+      window.addEventListener('scroll', function() {
+        // Verifica si ya se ha activado para no reproducir múltiples veces
+        if (hasTriggered) return;
+
+        // Obtiene la cantidad de scroll vertical
+        const scrollY = window.scrollY || window.pageYOffset;
+
+        // Si el scroll es mayor a 20px
+        if (scrollY > 20) {
+          // Muestra el GIF
+          gifContainer.style.display = 'block';
+          
+          // Reproduce el sonido
+          if (sullySound) {
+            sullySound.play()
+              .then(() => {
+                console.log('Sonido Sully reproducido');
+              })
+              .catch(error => {
+                console.log('Error al reproducir el sonido Sully:', error);
+              });
+          }
+
+          // Marca como activado
+          hasTriggered = true;
+
+          // Oculta el GIF después de un tiempo
+          setTimeout(() => {
+            gifContainer.style.display = 'none';
+          }, 1000);
+        }
+      });
+    }
+
+    // Inicialización principal
+    document.addEventListener('DOMContentLoaded', () => {
+      // Crear instancia del contador
+      GayCounter.getInstance();
+      
+      // Mostrar secuencia de modales molestos
+      SpamModal.show({
+        title: "⚠️ ¡ATENCIÓN! ⚠️",
+        message: "Debes hacer clic para continuar<br>NO PUEDES IGNORAR ESTO",
+        buttonText: "¡ACEPTO!<br>QUITAR ESTO",
+        onAccept: () => {
+          // Mostrar contenido principal
+          document.querySelector('.main-content').classList.remove('hidden');
+          
+          // Alert inicial del instructivo
+          alert("Aiaiai I'm a little butterfly 🦋");
+          
+          // Iniciar GIFs aleatorios
+          showRandomGif();
+          
+          // Iniciar spinning cat cada 20 segundos
+          setTimeout(showSpinningCat, 5000); // Primer gato después de 5 segundos
+          
+          // Inicializar scroll de Sully
+          initSullyScroll();
+          
+          // Mostrar alerta de virus después de 2 segundos
+          setTimeout(() => {
+            VirusAlert.randomAlert(() => {
+              console.log("Usuario hizo clic en escanear virus");
+              
+              // Iniciar las preguntas molestas después del virus alert
+              setTimeout(() => {
+                GayQuestion.startRandomAsking(30000, 30000); // Cada 30 segundos exactos
+              }, 1000);
+            });
+          }, 2000);
+        }
+      });
+    });
+
+    // Funciones de utilidad (para testing)
+    function showWarning() {
+      SpamModal.warning("Esto es una advertencia molesta", () => {
+        console.log("Advertencia aceptada");
+      });
+    }
+
+    function showError() {
+      SpamModal.error("Error crítico del sistema", () => {
+        console.log("Error aceptado");
+      });
+    }
+
+    function showInfo() {
+      SpamModal.info("Información importante", () => {
+        console.log("Info aceptada");
+      });
+    }
+
+    function showVirusAlert() {
+      VirusAlert.randomAlert(() => {
+        console.log("Escaneando virus...");
+      });
+    }
+
+    function showSimpleVirus() {
+      VirusAlert.simple(() => {
+        console.log("Virus simple detectado");
+      });
+    }
+
+    function showGayQuestion() {
+      GayQuestion.show();
+    }
+
+    function resetCounter() {
+      const counter = GayCounter.getInstance();
+      counter.reset();
+    }
+  </script>
+</body>
+</html>
